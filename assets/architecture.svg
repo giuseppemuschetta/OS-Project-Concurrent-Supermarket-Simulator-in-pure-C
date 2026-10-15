@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1100" height="470" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 470" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="470"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-470)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1100" height="470" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="22" y="70" width="410" height="370" rx="14" ry="14" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<text x="44" y="403" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,806) scale(1,-1)">DIRECTOR PROCESS</text>
+			<text x="44" y="375" style="font-family: Helvetica; font-size: 18px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,750) scale(1,-1)">server / server2</text>
+			<rect x="668" y="70" width="410" height="370" rx="14" ry="14" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 2; fill: rgb(93%,96%,97%); fill-rule: evenodd;"/>
+			<text x="690" y="403" style="font-family: Helvetica-Bold; font-size: 21px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,806) scale(1,-1)">SUPERMARKET PROCESS</text>
+			<text x="690" y="375" style="font-family: Helvetica; font-size: 18px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,750) scale(1,-1)">client</text>
+			<rect x="44" y="282" width="366" height="66" rx="8" ry="8" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="59" y="321" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,642) scale(1,-1)">Signals + request workers</text>
+			<text x="59" y="298" style="font-family: Helvetica; font-size: 15px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,596) scale(1,-1)">sigwait / one thread per request</text>
+			<rect x="44" y="196" width="366" height="66" rx="8" ry="8" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="59" y="235" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,470) scale(1,-1)">Checkout controller</text>
+			<text x="59" y="212" style="font-family: Helvetica; font-size: 15px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,424) scale(1,-1)">queue reports / S1 and S2 thresholds</text>
+			<rect x="44" y="110" width="366" height="66" rx="8" ry="8" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="59" y="149" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,298) scale(1,-1)">Local IPC endpoint</text>
+			<text x="59" y="126" style="font-family: Helvetica; font-size: 15px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,252) scale(1,-1)">AF_UNIX stream socket: ./mysock</text>
+			<rect x="690" y="282" width="366" height="66" rx="8" ry="8" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="705" y="321" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,642) scale(1,-1)">Customer and cashier threads</text>
+			<text x="705" y="298" style="font-family: Helvetica; font-size: 15px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,596) scale(1,-1)">shopping / FIFO queues / service</text>
+			<rect x="690" y="196" width="366" height="66" rx="8" ry="8" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="705" y="235" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,470) scale(1,-1)">Admission + reporting helpers</text>
+			<text x="705" y="212" style="font-family: Helvetica; font-size: 15px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,424) scale(1,-1)">bounded occupancy / periodic updates</text>
+			<rect x="690" y="110" width="366" height="66" rx="8" ry="8" style="stroke: rgb(79%,84%,87%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="705" y="149" style="font-family: Helvetica-Bold; font-size: 18px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,298) scale(1,-1)">Main control loop</text>
+			<text x="705" y="126" style="font-family: Helvetica; font-size: 15px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,252) scale(1,-1)">checkout commands / shutdown / logs</text>
+			<path d="M 438,313 L 662,313 Z" style="stroke: rgb(7%,48%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="662 313, 653 317.5, 653 308.5" style="stroke: rgb(7%,48%,51%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,48%,51%); fill-rule: evenodd;"/>
+			<text x="486.2415" y="336" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(7%,48%,51%); stroke:none;" transform="translate(0,672) scale(1,-1)">UNIX SOCKETS</text>
+			<text x="476.0125" y="289" style="font-family: Helvetica; font-size: 15px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,578) scale(1,-1)">requests + commands</text>
+			<path d="M 662,226 L 438,226 Z" style="stroke: rgb(7%,48%,51%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="438 226, 447 230.5, 447 221.5" style="stroke: rgb(7%,48%,51%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,48%,51%); fill-rule: evenodd;"/>
+			<text x="451.174" y="202" style="font-family: Helvetica; font-size: 14px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,404) scale(1,-1)">queue updates / exit permission</text>
+			<path d="M 438,147 L 662,147 Z" style="stroke: rgb(8%,17%,27%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="662 147, 653 151.5, 653 142.5" style="stroke: rgb(8%,17%,27%); stroke-linecap: butt; stroke-width: 1; fill: rgb(8%,17%,27%); fill-rule: evenodd;"/>
+			<text x="483.87" y="171" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,342) scale(1,-1)">POSIX SIGNALS</text>
+			<text x="451.195" y="121" style="font-family: Helvetica; font-size: 14px;fill: rgb(32%,39%,45%); stroke:none;" transform="translate(0,242) scale(1,-1)">SIGHUP / SIGQUIT / SIGPROF</text>
+			<text x="224.84949999999998" y="25" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(8%,17%,27%); stroke:none;" transform="translate(0,50) scale(1,-1)">CONFIGURATION  -&gt;  SIMULATION  -&gt;  STRUCTURED LOG  -&gt;  BASH ANALYSIS</text>
+		</g>
+	</g>
+</svg>
